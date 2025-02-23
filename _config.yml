@@ -3,11 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Website</title>
+    <meta name="description" content="Welcome to competiX! A modern platform for competitive engagement.">
+    <title>competiX</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My GitHub Page</h1>
-    <p>This is my first GitHub Pages website!</p>
+    <header>
+        <h1>Welcome to competiX</h1>
+        <p>Your platform for competitive excellence.</p>
+    </header>
+
+    <section>
+        <h2>About competiX</h2>
+        <p>competiX is designed to bring together people for intense, strategic, and fun competitions. Whether you're here for games, coding challenges, or real-world events, competiX is the place to prove your skills!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 competiX. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    margin: 30px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2C3E50;
+    color: white;
+    margin-top: 20px;
+}
